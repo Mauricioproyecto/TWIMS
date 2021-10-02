@@ -42,30 +42,7 @@ transform: scale(1.1);
     color: white;
     box-shadow: 1px 1px green;
 }
-.correo{
-    margin: 12px;
-    padding: 2px;
-}
-.letra{
-    font-family:'arial';
-    font-weight:bolder;
-}
-input{
-    border: 1px solid gray;
-    padding: 4px;
-    border-radius: 8px;
-    width: 250px;
-    display: flex; 
 
-}
 
-.iniciosesion{
-    padding: 12px;
-    margin: 12px;
-    display: flex;
-    justify-content: center;
-}
-.espacio{
-    margin: 5px;
-    
-}
+
+
