@@ -22,7 +22,16 @@ nav {
 }
 
 .botonInicio {
-    margin-left: 95%;
+    width: 15%;
+    margin-left: 85%;
+}
+
+.botonMaestro {
+    width: 15%;
+}
+
+#inicioMaestro {
+    margin-left: 51%;
 }
 
 .contenedor {
@@ -160,8 +169,13 @@ tr:hover {
     margin: 0 25%;
 }
 
+.botonActualizar {
+    width: 100%;
+}
+
 footer {
     padding: 2rem 1rem;
     background-color: #f5d05b;
     text-align: center;
+    margin-top: 2rem;
 }

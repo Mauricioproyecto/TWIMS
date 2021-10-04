@@ -5,20 +5,93 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <link rel="stylesheet" href="../CSS/estilos.css">
 </head>
 <body>
     <header>
-
+        <img src="../Images/LogoSoftware.jpeg" class="logo">
     </header>
     <nav>
-
+        <input type="search" placeholder="Buscar">
+        <button id="inicioMaestro" class="botonMaestro btn btn-warning">Inicio</button>
+        <button class="botonMaestro btn btn-warning">Crear Venta</button>
     </nav>
-    <article>
-
+    <article class="contenedor">
+        <section>
+            <h1><b>Listado Maestro de Ventas</b></h1>
+        </section>
+        <section>
+            <table>
+                <thead>
+                    <tr>
+                        <th><b>Identificador</b></th>
+                        <th><b>Valor total</b></th>
+                        <th><b>Fecha de venta</b></th>
+                        <th><b>Vendedor</b></th>
+                        <th><b>ID comprador</b></th>
+                        <th><b>Nombre comprador</b></th>
+                        <th><b>Estado</b></th>
+                        <th><b>Acciones</b></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>00001</td>
+                        <td>$$$$$</td>
+                        <td>mm/dd/aaaa</td>
+                        <td>aaaaa</td>
+                        <td>ID001</td>
+                        <td>nnnnn</td>
+                        <td>en progreso</td>
+                        <td><button type="button" class="botonActualizar btn btn-warning">Actualizar</button></td>
+                    </tr>
+                    <tr>
+                        <td>00002</td>
+                        <td>$$$$$</td>
+                        <td>mm/dd/aaaa</td>
+                        <td>aaaaa</td>
+                        <td>ID002</td>
+                        <td>nnnnn</td>
+                        <td>cancelada</td>
+                        <td><button type="button" class="botonActualizar btn btn-warning">Actualizar</button></td>
+                    </tr>
+                    <tr>
+                        <td>00003</td>
+                        <td>$$$$$</td>
+                        <td>mm/dd/aaaa</td>
+                        <td>aaaaa</td>
+                        <td>ID003</td>
+                        <td>nnnnn</td>
+                        <td>entregada</td>
+                        <td><button type="button" class="botonActualizar btn btn-warning">Actualizar</button></td>
+                    </tr>
+                    <tr>
+                        <td>00004</td>
+                        <td>$$$$$</td>
+                        <td>mm/dd/aaaa</td>
+                        <td>aaaaa</td>
+                        <td>ID004</td>
+                        <td>nnnnn</td>
+                        <td>en progreso</td>
+                        <td><button type="button" class="botonActualizar btn btn-warning">Actualizar</button></td>
+                    </tr>
+                    <tr>
+                        <td>00005</td>
+                        <td>$$$$$</td>
+                        <td>mm/dd/aaaa</td>
+                        <td>aaaaa</td>
+                        <td>ID005</td>
+                        <td>nnnnn</td>
+                        <td>cancelada</td>
+                        <td><button type="button" class="botonActualizar btn btn-warning">Actualizar</button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
     </article>
     <footer>
-        
+        <h5>Todo los derechos reservados</h5>
     </footer>
 </body>
 </html>
