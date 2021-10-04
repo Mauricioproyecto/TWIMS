@@ -131,7 +131,7 @@ tr:hover {
 }
 
 #nombreVen {
-    margin-left: 21%;
+    margin-left: 15%;
 }
 
 #vendedor {
@@ -139,11 +139,11 @@ tr:hover {
 }
 
 #nombreCliente {
-    width: 33%;
+    width: 30%;
 }
 
 #DDI {
-    margin-left: 2.5%;
+    margin-left: 1%;
 }
 
 #documentoID {
