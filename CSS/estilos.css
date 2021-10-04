@@ -1,0 +1,167 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background-color: #f5d05b;
+}
+
+.logo {
+    width: 20%;
+}
+
+body {
+    margin: 0;
+    background-image: url(../Images/camioneta.jpg);
+    background-size: cover;
+}
+
+nav {
+    width: 80%;
+    margin: 3rem auto;
+}
+
+.botonInicio {
+    margin-left: 95%;
+}
+
+.contenedor {
+    width: 80%;
+    margin: 0 auto;
+}
+
+section h1 {
+    width: 50%;
+    margin: 1rem auto;
+    padding-bottom: 0.5rem;
+    text-align: center;
+    background-color: #f5d05b;
+    border: 2px black solid;
+    border-radius: 5px;
+}
+
+#sectFormulario {
+    width: 70%;
+    margin: 0 auto;
+    background-color: #f5d05b;
+    border: 2px black solid;
+    border-radius: 5px;
+}
+
+#divIden {
+    width: 90%;
+    margin: 2rem auto;
+}
+
+#identificador {
+    width: 43.3%;
+}
+
+#divProduc{
+    float: left;
+    width: 40%;
+    margin: 0 5%;
+}
+
+#productos {
+    width: 100%;
+}
+
+#divCant {
+    margin: 2rem 5% 2rem 55%;
+}
+
+#cantidad {
+    width: 97%;
+}
+
+.botonAgregar {
+    width: 20%;
+    margin-bottom: 1rem;
+    margin-left: 40%;
+}
+
+#sectTabla {
+    margin: 2rem 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px black solid;
+}
+
+th, td {
+    border: 2px black solid;
+    padding: 5px;
+}
+
+th {
+    background-color: #f5d05b;
+}
+
+tr {
+    background-color: #ffeaa6;
+}
+
+tr:hover {
+    background-color: #aaa;
+    cursor: pointer;
+}
+
+.tdDerecha {
+    text-align: right;
+}
+
+.tdSinBorde {
+    border: none;
+}
+
+#sectFormulario2 {
+    width: 90%;
+    margin: 0 auto;
+    background-color: #f5d05b;
+    border: 2px black solid;
+    border-radius: 5px;
+}
+
+.divForm2 {
+    width: 90%;
+    margin: 1rem auto;
+}
+
+#nombreVen {
+    margin-left: 21%;
+}
+
+#vendedor {
+    width: 31%;
+}
+
+#nombreCliente {
+    width: 33%;
+}
+
+#DDI {
+    margin-left: 2.5%;
+}
+
+#documentoID {
+    width: 25%;
+}
+
+#sectBoton {
+    width: 50%;
+    margin: 2rem auto;
+}
+
+#crearVenta {
+    width: 50%;
+    margin: 0 25%;
+}
+
+footer {
+    padding: 2rem 1rem;
+    background-color: #f5d05b;
+    text-align: center;
+}

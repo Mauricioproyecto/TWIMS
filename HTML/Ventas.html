@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="../CSS/estilos.css">
+</head>
+<body>
+    <header>
+        <img src="../Images/LogoSoftware.jpeg" class="logo">
+    </header>
+    <nav>
+        <button class="botonInicio btn btn-warning">Inicio</button>
+    </nav>
+    <article class="contenedor">
+        <section>
+            <h1>Ingrese una venta</h1>
+        </section>
+        <section id="sectFormulario">
+            <form action="/formulario" method="POST">
+                <div id="divIden">
+                    <label for="identificador"><b>Identificador de la venta</b></label>
+                    <br>
+                    <input type="text" id="identificador" placeholder="Identificador de venta" name="identificador">
+                </div>
+                <div id="divProduc">
+                    <label for="productos"><b>Productos</b></label>
+                    <br>
+                    <select name="productos" id="productos">
+                        <optgroup label="Tipo 1">
+                            <option value="producto 1">Producto 1</option>
+                            <option value="producto 2">Producto 2</option>
+                            <option value="producto 3">Producto 3</option>
+                        </optgroup>
+                        <optgroup label="Tipo 2">
+                            <option value="producto 4">Producto 4</option>
+                            <option value="producto 5">Producto 5</option>
+                            <option value="producto 6">Producto 6</option>
+                        </optgroup>
+                        <optgroup label="Tipo 3">
+                            <option value="producto 7">Producto 7</option>
+                            <option value="producto 8">Producto 8</option>
+                            <option value="producto 9">Producto 9</option>
+                        </optgroup>
+                    </select>
+                </div>
+                <div id="divCant">
+                    <label for="cantidad"><b>Cantidad de productos</b></label>
+                    <br>
+                    <input type="text" id="cantidad" placeholder="cantidad de productos" name="cantidad">
+                </div>
+                <button type="button" class="botonAgregar btn btn-warning">Agregar</button>
+            </form>
+        </section>
+        <section id="sectTabla">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Identificador</th>
+                        <th>Producto</th>
+                        <th>Cantidad</th>
+                        <th>Precio unitario</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>000001</td>
+                        <td>Producto 1</td>
+                        <td class="tdDerecha">####</td>
+                        <td class="tdDerecha">$$$$</td>
+                    </tr>
+                    <tr>
+                        <td>000002</td>
+                        <td>Producto 2</td>
+                        <td class="tdDerecha">####</td>
+                        <td class="tdDerecha">$$$$</td>
+                    </tr>
+                    <tr>
+                        <td>000003</td>
+                        <td>Producto 3</td>
+                        <td class="tdDerecha">####</td>
+                        <td class="tdDerecha">$$$$</td>
+                    </tr>
+                    <tr>
+                        <td>000004</td>
+                        <td>Producto 4</td>
+                        <td class="tdDerecha">####</td>
+                        <td class="tdDerecha">$$$$</td>
+                    </tr>
+                    <tr>
+                        <td>000005</td>
+                        <td>Producto 5</td>
+                        <td class="tdDerecha">####</td>
+                        <td class="tdDerecha">$$$$</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td class="tdSinBorde"></td>
+                        <td class="tdSinBorde"></td>
+                        <td class="tdDerecha tdSinBorde"><b>total</b></td>
+                        <td class="tdDerecha"><b>$$$$$$</b></td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+        <section id="sectFormulario2">
+            <form action="/formulario" method="POST">
+                <div class="divForm2">
+                    <label for="fechaVenta"><b>Fecha de venta</b></label>
+                    <input type="date" id="fechaVenta" name="fechaVenta">
+                    <label for="vendedor" id="nombreVen"><b>Nombre del vendedor</b></label>
+                    <input type="text" id="vendedor" placeholder="Nombre del vendedor" name="vendedor">
+                </div>
+                <div class="divForm2">
+                    <label for="nombreCliente"><b>Nombre del cliente</b></label>
+                    <input type="text" id="nombreCliente" placeholder="nombre del cliente" name="nombreCliente">
+                    <label for="documentoID" id="DDI"><b>Documento de identificacion</b></label>
+                    <input type="text" id="documentoID" placeholder="documento de identificacion" name="documentoID">
+                </div>
+            </form>
+        </section>
+        <section id="sectBoton">
+            <button type="button" id="crearVenta" class="btn btn-warning">Crear Venta</button>
+        </section>
+    </article>
+    <footer>
+        <h5>Todo los derechos reservados</h5>
+    </footer>
+</body>
+</html>
